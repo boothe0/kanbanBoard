@@ -1,25 +1,70 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>List View</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <h1>List View</h1>
+    <a class="button" href="homepage.html">Go Back</a>
+    <table class="hover unstriped stack">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Status</th>
+          <th>Description</th>
+          <th>Assignee</th>
+          <th>Due Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Add bullet points to page</td>
+          <td>Incomplete</td>
+          <td>
+            Need to add order elements to a list to complete the page out.
+          </td>
+          <td>Elizabeth</td>
+          <td>02/19/2026</td>
+        </tr>
+        <tr>
+          <td>Add bullet points to page</td>
+          <td>Incomplete</td>
+          <td>
+            Need to add order elements to a list to complete the page out.
+          </td>
+          <td>Elizabeth</td>
+          <td>02/19/2026</td>
+        </tr>
+        <tr>
+          <td>Add bullet points to page</td>
+          <td>Incomplete</td>
+          <td>
+            Need to add order elements to a list to complete the page out.
+          </td>
+          <td>Elizabeth</td>
+          <td>02/19/2026</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <script src="" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
