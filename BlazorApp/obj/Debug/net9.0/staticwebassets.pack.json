@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\kanbanboard\\BlazorApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BlazorApp.gkfn466dw3.bundle.scp.css"
+      "PackagePath": "staticwebassets\\BlazorApp.9ewv3h79av.bundle.scp.css"
     },
     {
       "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\app.css",
@@ -11,6 +11,18 @@
     {
       "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\js\\board.js",
+      "PackagePath": "staticwebassets\\js\\board.js"
+    },
+    {
+      "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\js\\list.js",
+      "PackagePath": "staticwebassets\\js\\list.js"
     },
     {
       "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -187,6 +199,22 @@
     {
       "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\team.jpg",
+      "PackagePath": "staticwebassets\\team.jpg"
+    },
+    {
+      "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\teamwork2.jpg",
+      "PackagePath": "staticwebassets\\teamwork2.jpg"
+    },
+    {
+      "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\ts\\board.ts",
+      "PackagePath": "staticwebassets\\ts\\board.ts"
+    },
+    {
+      "Id": "D:\\kanbanboard\\BlazorApp\\wwwroot\\ts\\list.ts",
+      "PackagePath": "staticwebassets\\ts\\list.ts"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

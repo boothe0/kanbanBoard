@@ -1,7 +1,47 @@
 ﻿@page "/"
-
-<PageTitle>Home</PageTitle>
-
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<div class="page">
+    <NavMenu>
+    </NavMenu>
+    <div clas="alignNext">
+      <div class="media-object stack-for-small">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <img src="team.jpg" width="300" />
+          </div>
+        </div>
+        <div class="media-object-section">
+          <h4>For Use in Team Projects</h4>
+          <p>
+            Shrink the browser width to see me stack. I do tricks for dog
+            treats, but I'm not a dog. Replace later.
+          </p>
+        </div>
+      </div>
+      <div class="media-object stack-for-small">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <img src="teamwork2.jpg" width="300" />
+          </div>
+        </div>
+        <div class="media-object-section">
+          <h4>Plan Development</h4>
+          <p>
+            Shrink the browser width to see me stack. I do tricks for dog
+            treats, but I'm not a dog. Replace later.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-x grid-padding-x align-center">
+      <div class="cell medium-4">
+          <NavLink class="nav-link" href="boardView">
+            <li class="hollow button">                 
+              BoardView
+            </li>
+          </NavLink>
+      </div>
+      <div class="cell medium-4">
+        <a class="hollow button secondary" href="listView"> List View </a>
+      </div>
+    </div>
+</div>
