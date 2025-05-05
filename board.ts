@@ -15,6 +15,10 @@ if (savedData) {
 
 if (firstCard) {
   tableOne.status = firstCard.children[0].innerHTML;
+  tableOne.name = firstCard.children[1].innerHTML;
+  tableOne.description = firstCard.children[2].innerHTML;
   console.log(tableOne.status);
+  console.log(tableOne.name);
+  console.log(tableOne.description);
   localStorage.setItem("tableOne", JSON.stringify(tableOne));
 }
