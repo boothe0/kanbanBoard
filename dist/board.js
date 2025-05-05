@@ -8,14 +8,14 @@ class tableHeaders {
         this.due_date = new Date();
     }
 }
-let flag = false;
 export const tableOne = new tableHeaders();
 const savedData = localStorage.getItem("tableOne");
 if (savedData) {
     Object.assign(tableOne, JSON.parse(savedData));
     makeTheCard(tableOne.status, tableOne.name, tableOne.description);
 }
-localStorage.removeItem("tableOne");
+// uncomment to remove the table to reset for testing
+// localStorage.removeItem("tableOne");
 function makeTheCard(status, title, description) {
     const card = document.getElementById("boardCards");
     const cardDivder = document.createElement("div");
