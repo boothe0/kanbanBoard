@@ -7,6 +7,7 @@ Inspired by Jira boards this project aims to make a site to organize your team p
 - Foundation CSS
 - TypeScript
 - Razor Pages C#
+- Blazor for user authentication C#
 - XUnit for testing C#
 
 ## In progress
