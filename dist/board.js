@@ -8,35 +8,29 @@ class tableHeaders {
         this.due_date = new Date();
     }
 }
+let flag = false;
 export const tableOne = new tableHeaders();
 const savedData = localStorage.getItem("tableOne");
 if (savedData) {
     Object.assign(tableOne, JSON.parse(savedData));
+    makeTheCard(tableOne.status, tableOne.name, tableOne.description);
 }
-//localStorage.removeItem("tableOne");
-function makeTheCard(status, title, description, assignee, due_date) {
+localStorage.removeItem("tableOne");
+function makeTheCard(status, title, description) {
     const card = document.getElementById("boardCards");
     const cardDivder = document.createElement("div");
     cardDivder.classList.add("card-divider");
     cardDivder.classList.add("align-center");
     // set the inner html as the passed in param from the submit button
     cardDivder.innerHTML = status;
-    // for loading purposes
-    tableOne.status = status;
     const cardSectionName = document.createElement("div");
     cardSectionName.classList.add("card-section");
     // set the inner html as the passed in param from the submit button
     cardSectionName.innerHTML = title;
-    // for loading purposes
-    tableOne.name = title;
     const cardSectionDescription = document.createElement("div");
     cardSectionDescription.classList.add("card-section");
     // set the inner html as the passed in param from the submit button
     cardSectionDescription.innerHTML = description;
-    // for loading purposes
-    tableOne.description = description;
-    tableOne.assignee = assignee;
-    tableOne.due_date = due_date;
     // appending all children to the card
     card === null || card === void 0 ? void 0 : card.appendChild(cardDivder);
     card === null || card === void 0 ? void 0 : card.appendChild(cardSectionName);
@@ -55,7 +49,13 @@ window.fillInBoard = function fillInBoard() {
     const assigneeValue = assignee.value;
     const dueDate = document.getElementById("dueDate");
     const dueDateValue = new Date(dueDate.value);
-    makeTheCard(statusValue, titleValue, descriptionValue, assigneeValue, dueDateValue);
+    tableOne.status = statusValue;
+    tableOne.name = titleValue;
+    // for loading purposes
+    tableOne.description = descriptionValue;
+    tableOne.assignee = assigneeValue;
+    tableOne.due_date = dueDateValue;
+    makeTheCard(statusValue, titleValue, descriptionValue);
     closeModal();
 };
 function closeModal() {
