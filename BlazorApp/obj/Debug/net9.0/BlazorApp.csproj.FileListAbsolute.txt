@@ -13,11 +13,9 @@ D:\kanbanboard\BlazorApp\obj\Debug\net9.0\BlazorApp.AssemblyInfo.cs
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\BlazorApp.csproj.CoreCompileInputs.cache
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\BlazorApp.sourcelink.json
-D:\kanbanboard\BlazorApp\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\scopedcss\bundle\BlazorApp.styles.css
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
-D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\niqfivrdr6-khy4lop6wu.gz
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\4fjygrhgud-bqjiyaj88i.gz
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\rr9cuthk2h-c2jlpeoesf.gz
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\8nurldnakx-erw9l3u2r3.gz
@@ -62,8 +60,6 @@ D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\0u96xy8fvl-notf2xhcfb.gz
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\5njhqh7xtn-h1s4sie4z3.gz
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\kxietpdl1t-63fj8s7r0e.gz
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\opd9y4aud5-0j3bgjxly4.gz
-D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\io2m3ndci8-gkfn466dw3.gz
-D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\wo77s772mi-gkfn466dw3.gz
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\staticwebassets.build.json
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\staticwebassets.development.json
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -78,3 +74,9 @@ D:\kanbanboard\BlazorApp\obj\Debug\net9.0\refint\BlazorApp.dll
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\BlazorApp.pdb
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\BlazorApp.genruntimeconfig.cache
 D:\kanbanboard\BlazorApp\obj\Debug\net9.0\ref\BlazorApp.dll
+D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\io2m3ndci8-9ewv3h79av.gz
+D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\wo77s772mi-9ewv3h79av.gz
+D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\niqfivrdr6-zq9pyeymrc.gz
+D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\kw3sf6woca-6ddwhoyyt1.gz
+D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\ctj9ebtr02-8lyaw4yhnv.gz
+D:\kanbanboard\BlazorApp\obj\Debug\net9.0\compressed\0gj5198w88-b0g85t6sde.gz
