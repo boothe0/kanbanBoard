@@ -1,7 +1,5 @@
 import { tableOne } from "./board.js"; // <-- IMPORTANT: use the `.js` extension
-
 console.log(tableOne.status);
-
-(window as any).fillInStatus = function (param: HTMLElement) {
-  param.innerHTML = tableOne.status;
+window.fillInStatus = function (param) {
+    param.innerHTML = tableOne.status;
 };
