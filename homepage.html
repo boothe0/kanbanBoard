@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation Starter Template</title>
+    <title>Kanban Board</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css"
@@ -13,7 +13,66 @@
     <link rel="stylesheet" href="baseStyles.css" />
   </head>
   <body>
-    <h1>Project</h1>
+    <div
+      class="title-bar"
+      data-responsive-toggle="responsive-menu"
+      data-hide-for="medium"
+    >
+      <button
+        class="menu-icon"
+        type="button"
+        data-toggle="responsive-menu"
+      ></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+
+    <div class="top-bar" id="responsive-menu">
+      <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Kanban Board</li>
+          <li class="has-submenu">
+            <a href="#0">Continue!</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="#0">Login</a></li>
+              <li><a href="#0">Sign up</a></li>
+              <li><a href="#0">Guest</a></li>
+            </ul>
+          </li>
+          <li><a href="#0">About</a></li>
+          <li><a href="#0">Developement</a></li>
+        </ul>
+      </div>
+    </div>
+    <div clas="alignNext">
+      <div class="media-object stack-for-small">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <img src="images/team.jpg" width="300" />
+          </div>
+        </div>
+        <div class="media-object-section">
+          <h4>For Use in Team Projects</h4>
+          <p>
+            Shrink the browser width to see me stack. I do tricks for dog
+            treats, but I'm not a dog. Replace later.
+          </p>
+        </div>
+      </div>
+      <div class="media-object stack-for-small">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <img src="images/teamwork2.jpg" width="300" />
+          </div>
+        </div>
+        <div class="media-object-section">
+          <h4>Plan Development</h4>
+          <p>
+            Shrink the browser width to see me stack. I do tricks for dog
+            treats, but I'm not a dog. Replace later.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <div class="grid-x grid-padding-x align-center">
       <div class="cell medium-4">
